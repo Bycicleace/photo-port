@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import Gallery from '..';
-// import '@testing-library/jest-dom/extend-expect';
 
 const portrait = { name: 'portraits', description: "Portraits of people in my life" };
 
