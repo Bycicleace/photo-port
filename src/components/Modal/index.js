@@ -11,7 +11,7 @@ function Modal({onClose, currentPhoto}) {
                 <p>
                     {description}
                 </p>
-                <button type="button" onClick={onClose}>
+                <button data-testId="closeButton" type="button" onClick={onClose}>
                     Close this modal
                 </button>
             </div>
