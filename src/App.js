@@ -1,5 +1,4 @@
-import React from 'react';  // This was not initially here. Does it need to be?
-// import './App.css';
+import React from 'react'; 
 import About from './components/About';
 import Nav from './components/Nav';
 
